@@ -55,6 +55,7 @@ while (capture_video.isOpened()):
     # detection or you can convert it to gray
     hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
 
+   
     # -------------------------------------BLOCK----------------------------#
     # ranges should be carefully chosen
     # setting the lower and upper range for mask1
